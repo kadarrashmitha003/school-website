@@ -1,0 +1,118 @@
+/* Basic reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff; /* White background for main content */
+}
+
+/* Header styling with Green Nav Bar */
+header {
+    background: #4CAF50; /* Green for nav bar */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #45a049; /* Slightly darker green for hover effect */
+}
+
+.active {
+    background: #45a049;
+}
+
+/* Main content */
+main {
+    padding: 2rem 1rem;
+    min-height: 80vh;
+}
+
+/* Footer styling */
+footer {
+    background: #4CAF50; /* Green for footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Page Image */
+.page-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+/* Login section */
+.login-section {
+    max-width: 300px;
+    margin: 2rem auto;
+    background: #fff; /* White background for the login box */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4CAF50; /* Green for the heading */
+}
+
+.login-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #4CAF50; /* Green for label text */
+}
+
+.login-section input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #B4E1B1; /* Light green border */
+    border-radius: 4px;
+}
+
+.login-section button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #4CAF50; /* Green for button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-section button:hover {
+    background: #45a049; /* Slightly darker green on hover */
+}
